@@ -1,16 +1,1 @@
-function addTask(){
-  const input =
-    document.getElementById("taskInput");
-
-  const list =
-    document.getElementById("taskList");
-
-  const li =
-    document.createElement("li");
-
-  li.innerText = input.value;
-
-  list.appendChild(li);
-
-  input.value = "";
-}
+console.log("delete feature added");
